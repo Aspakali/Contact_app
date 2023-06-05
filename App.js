@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
-    backgroundColor: 'salmon',
+    backgroundColor: '#9fa6ab',
   },
   title: {
     fontSize: 24,
@@ -120,7 +120,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   button: {
-    backgroundColor: '#2ecc71',
+    backgroundColor: '#6623b8',
     paddingVertical: 8,
     paddingHorizontal: 16,
     borderRadius: 4,
@@ -134,10 +134,13 @@ const styles = StyleSheet.create({
   searchInput: {
     height: 40,
     borderWidth: 1,
-    borderColor: '#ccc',
+    borderColor: 'black',
     borderRadius: 4,
     paddingHorizontal: 8,
     marginBottom: 8,
+    margin: 'auto',
+    display: 'block',
+    position: 'relative',
   },
   contactItem: {
     paddingVertical: 8,
